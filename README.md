@@ -12,7 +12,7 @@ are interpolated  after lighting (while Phong shading interpolates normals first
 In 1995 there was no graphics system that allowed native rendering of shaded triangles, PostScript output consisted of uniform color
 triangles.
 
-So I created this little PostScript function to achive smooth rendering of triangles, mostly for OpenGL or 3d usage.
+So I created this little PostScript function to achieve smooth rendering of triangles, mostly for OpenGL or 3d usage.
 
 Postcript is a complete programming language, derived from Forth, relatively hard to read and write for humans.
 My code is recursive (not the best way to get good performance), but it should be if not easy to follow, at least possible.
@@ -36,6 +36,7 @@ It has been used by a number of 3d libraries (Coin3d, VRender), software or arti
 Mark Kilgard of OpenGL and GLUT fame used it in one GLUT's samples.
 
 After 30 years I still find sometimes references to this code and a github search returns 26 hits
+
 https://github.com/search?q=gouraudtriangle+delhoume
 
 
