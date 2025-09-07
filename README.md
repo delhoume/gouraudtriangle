@@ -1,7 +1,7 @@
 # gouraudtriangle
 My first opensource code
 
-Dated 1995 and posted to one of the usenet newsgroup, this little Postscript function allowed
+Dated 1995 and posted to one of the usenet newsgroups, this little Postscript function allowed
 printed OpenGL triangle output to reach a high visual quality.
 
 OpenGL provides a feedback mecanism that allows to retrieve screen projected triangles.
@@ -19,7 +19,7 @@ My code is recursive (not the best way to get good performance), but it should b
 Manipulate arbitrary structures o aa styack is tedious...
 It comes with zero documentation except sample usage.
 
-Each starting triangle is subdivided in 4 sub-triangles (3 would make very long ones very quickly), until vertices have the same color
+Each starting triangle is subdivided in 4 sub-triangles (3 would make very long and thin ones very quickly), until vertices have the same color
 (given a configurable threshold), in this case recursion ends and a single color triangle is drawn.
 Since then some people de-recursified it.
 
