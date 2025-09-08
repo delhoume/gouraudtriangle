@@ -44,5 +44,6 @@ Here an illustration of the principle from a 2001 CodeProject article by Pierre 
 
 <img width="600" height="599" alt="image" src="https://github.com/user-attachments/assets/eb31a223-d61d-407e-a0c9-00e158137213" />
 
-And the ouput of the code, in Gimp on Windows.
-<img width="1021" height="975" alt="image" src="https://github.com/user-attachments/assets/ac53758a-a2c8-427d-85cc-01b929d79c35" />
+And the ouput of the code, in Ghostscript on Windows (threshold 0.01)
+<img width="844" height="962" alt="image" src="https://github.com/user-attachments/assets/94e581b7-10fc-466c-b263-c4336d2c52a0" />
+
