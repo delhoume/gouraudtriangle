@@ -9,7 +9,7 @@ Once sorted with a painter's algorithm they can be used as input to any graphics
 Each triangle vertex has its own color, and OpenGL can render it using the Gouraud shading model, where colors
 are interpolated  after lighting (while Phong shading interpolates normals first).
 
-In 1995 there was no graphics system that allowed native rendering of shaded triangles, PostScript output consisted of uniform color
+In 1995 there was no graphics printing system that allowed native rendering of shaded triangles, PostScript output consisted of uniform color
 triangles.
 
 So I created this little PostScript function to achieve smooth rendering of triangles, mostly for OpenGL or 3d usage.
