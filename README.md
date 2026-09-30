@@ -16,7 +16,7 @@ So I created this little PostScript function to achieve smooth rendering of tria
 
 Postcript is a complete programming language, derived from Forth, relatively hard to read and write for humans.
 My code is recursive (not the best way to get good performance), but it should be if not easy to follow, at least possible.
-Manipulate arbitrary structures o aa styack is tedious...
+Manipulate arbitrary structures on a stack is tedious...
 It comes with zero documentation except sample usage.
 
 Each starting triangle is subdivided in 4 sub-triangles (3 would make very long and thin ones very quickly), until vertices have the same color
